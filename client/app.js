@@ -281,7 +281,6 @@ window.addEventListener("load", () => {
 const todoDone = async (id, title, content, date, done) => {  
   let doneTodo;
   if (done === "false") {
-    console.log("if done = " + done)
     doneTodo = {    
       title,
       content,
